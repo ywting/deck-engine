@@ -1,0 +1,16 @@
+/* deck-engine theme tokens. Apps override any var in their own CSS:
+   :root { --deck-accent: #7C3AED; } */
+:root,
+.wyt-deck {
+  --deck-canvas: #f8fafc;
+  --deck-surface: #ffffff;
+  --deck-text-strong: #0f172a;
+  --deck-text-body: #334155;
+  --deck-text-muted: #64748b;
+  --deck-accent: #2563eb;
+  --deck-accent-contrast: #ffffff;
+  --deck-border: #e2e8f0;
+  --deck-radius-card: 0.75rem;
+  --deck-font-display: 'Fira Sans', system-ui, sans-serif;
+  --deck-font-mono: 'Fira Code', ui-monospace, monospace;
+}

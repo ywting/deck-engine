@@ -1,0 +1,33 @@
+{
+  "name": "@ywting/deck-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reusable engine for browser-editable slide decks: presenter, editing system, save API plugin, theming tokens.",
+  "exports": {
+    ".": "./src/index.tsx",
+    "./plugin": "./src/plugin/slides-api.ts",
+    "./theme.css": "./src/theme/tokens.css"
+  },
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "lucide-react": "*",
+    "motion": "*",
+    "react": "*",
+    "react-dom": "*",
+    "vite": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.43.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.13",
+    "typescript": "~5.8.2",
+    "vite": "^6.4.3"
+  }
+}
